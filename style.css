@@ -220,3 +220,21 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*
+/////////////// Footer /////////////////////////
+ */
+
+footer {
+  background-color: #b4bfcc;
+  box-shadow: -3px -3px 16px #b4bfcc;
+  min-height: 18vh;
+}
+
+.footer-icons {
+  font-size: 1.5rem;
+}
+
+.footer-text {
+  letter-spacing: var(--letter-spacing);
+}
