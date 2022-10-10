@@ -232,19 +232,9 @@ footer {
 }
 
 .footer-icons {
-  color: #fff;
-  transition: var(--transition-10);
-}
-
-.footer-icons:hover {
-  color: #000;
+  font-size: 1.5rem;
 }
 
 .footer-text {
   letter-spacing: var(--letter-spacing);
-}
-
-.footer-pipeLine {
-  height: 30px;
-  width: 3px;
 }
