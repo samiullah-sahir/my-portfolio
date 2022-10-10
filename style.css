@@ -150,3 +150,73 @@ body {
   background: linear-gradient(145deg, #c8d4e3, #eefdff);
   box-shadow: inset 5px 5px 12px #b4bfcc, inset -5px -5px 12px #fff;
 }
+
+/*
+///////////// Profile Image ///////////////////
+ */
+.prof-img {
+  background: var(--background-5);
+  border: var(--border-10);
+  box-shadow: var(--box-shadow-10);
+  width: 25rem;
+}
+
+/*
+  ///////////// Hero Text ///////////////////
+   */
+.hero-title {
+  letter-spacing: 0.2rem;
+  font-family: Handlee, sans-serif;
+}
+
+/*
+  /////////////// Hire me button //////////////
+   */
+.hire-me {
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+  transition: var(--transition-10);
+  background: var(--background-5);
+  border: var(--border-5);
+  box-shadow: var(--box-shadow-5);
+}
+
+.hire-me:hover {
+  transform: translateY(-5px);
+}
+
+.hire-me:active {
+  transform: translateY(-2px);
+}
+
+.title-hi {
+  letter-spacing: 0.2rem;
+}
+
+.btn-text {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+/*
+  ///////////////////// Navigation Round Containers ////////////////
+   */
+.navigation-container {
+  position: relative;
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 100rem;
+  font-family: "Avenir Next", sans-serif;
+  font-size: 1.2rem;
+  transition: var(--transition-10);
+  letter-spacing: var(--letter-spacing);
+  background: var(--background-darkish);
+  box-shadow: var(--box-shadow-darkish);
+}
+
+.navigation-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
