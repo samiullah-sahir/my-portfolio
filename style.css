@@ -292,6 +292,19 @@ body {
 }
 
 /*
+////////////// Projects ////////////////
+ */
+
+.project-links {
+  font-size: 1.5rem;
+}
+
+.links-container {
+  width: 4rem;
+  height: 4rem;
+}
+
+/*
 /////////////// Footer /////////////////////////
  */
 
