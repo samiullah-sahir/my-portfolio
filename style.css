@@ -260,6 +260,37 @@ body {
   font-size: 4rem;
 }
 
+.form-control {
+  transition: var(--transition-10);
+}
+
+.form-control:hover {
+  transform: translateY(-5px);
+}
+
+.form-control:active {
+  transform: translateY(-2px);
+}
+
+.send-message-btn {
+  background: var(--background-5);
+  box-shadow: var(--box-shadow-darkish);
+  letter-spacing: var(--letter-spacing);
+  transition: var(--transition-10);
+}
+
+.send-message-btn:hover {
+  transform: translateY(-5px);
+}
+
+.send-message-btn:active {
+  transform: translateY(-2px);
+}
+
+.contact-icons {
+  background: var(--background-5);
+}
+
 /*
 /////////////// Footer /////////////////////////
  */
