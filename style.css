@@ -109,7 +109,7 @@ body {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  border: var(--border-5);
+  border: var(--border-10);
   box-shadow: var(--box-shadow-10);
 }
 
@@ -135,7 +135,7 @@ body {
   letter-spacing: 0.1rem;
   transition: var(--transition-10);
   background: #deecfc;
-  border: var(--border-5);
+  border: var(--border-10);
   box-shadow: var(--box-shadow-5);
 }
 
