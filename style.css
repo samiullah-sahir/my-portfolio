@@ -222,6 +222,45 @@ body {
 }
 
 /*
+ ///////////// About Page /////////////////
+ */
+.operation__tabs--container {
+  display: flex;
+  justify-content: center;
+}
+
+.operation__content {
+  display: none;
+}
+
+.operations__content--active {
+  display: block;
+}
+
+.operation__header {
+  font-size: 30px;
+}
+
+.operation__text {
+  font-size: 25px;
+}
+
+.operation__tab {
+  transform: translateY(-50%);
+  transition: var(--transition-10);
+  cursor: pointer;
+}
+
+.operation__tab--active {
+  transform: translateY(-66%);
+  border: none;
+}
+
+.about-icons {
+  font-size: 4rem;
+}
+
+/*
 /////////////// Footer /////////////////////////
  */
 

@@ -25,3 +25,27 @@ const linksFadOut = function () {
   });
 };
 linksFadOut();
+
+// ------------------ Tab component ---------------------
+const operationTabs = document.querySelector('.operation__tabs--container');
+const tabs = document.querySelectorAll('.operation__tab');
+const tabsContent = document.querySelectorAll('.operation__content');
+/// ////////////////////////////////////
+const tabComponent = function () {
+  operationTabs.addEventListener('click', (e) => {
+    e.preventDefault();
+    const clicked = e.target.closest('.operation__tab');
+
+    if (!clicked) return;
+    tabs.forEach((tab) => tab.classList.remove('operation__tab--active'));
+    clicked.classList.add('operation__tab--active');
+
+    tabsContent.forEach((content) => content.classList.remove('operations__content--active'));
+
+    const numbers = clicked.dataset.tab;
+
+    const tabss = document.querySelector(`.operation__content--${numbers}`);
+    tabss.classList.add('operations__content--active');
+  });
+};
+tabComponent();
